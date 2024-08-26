@@ -61,7 +61,8 @@ function plotMetric(metricArray, ratings, metric){
     title: `${metric} by MPAA Rating `
   };
 
-  Plotly.newPlot("plot", data, layout);
+  Plotly.newPlot("plot1", data, layout);
 }
 // Invoke the plot creating function
 plotMetric(metricArray, ratings, metric);
+
