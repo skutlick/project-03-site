@@ -17,11 +17,11 @@
         <select id="myselection">
             <option></option>
             <option value="1">Movie Release by Year</option>
-            <option value="2">Gross Revenue by Year</option>
-            <option value="3">Production Cost vs. Gross Income</option>
-            <option value="4">Top Opening Weekend Profit</option>
-            <option value="5">Portion of Profit by Genre</option>
-            <option value="6">Ratings Distribution</option>
+            <option value="2">Production Cost vs. Gross Income</option>
+            <option value="3">Ratings Distribution</option>
+            <option value="4">Gross Revenue by Year</option>
+            <option value="5">Top Opening Weekend Profit</option>
+            <option value="6">Portion of Profit by Genre</option>
         </select>
     </p>
     <div id="show1" class="myDiv">
@@ -31,7 +31,7 @@
         <img src="images/2.png" width="800" height="600"/>
     </div>
     <div id="show3" class="myDiv">
-        <img src="images/3.png" width="800" height="600"/>
+        <img src="images/3.png" width="600" height="600"/>
     </div>
     <div id="show4" class="myDiv">    
         <img src="images/4.png" width="800" height="600"/>
@@ -40,14 +40,17 @@
         <img src="images/5.png" width="800" height="600"/>
     </div>
     <div id="show6" class="myDiv">
-        <img src="images/6.png" width="600" height="600"/>
+        <img src="images/6.png" width="800" height="600"/>
     </div>
-    <h2>Average Gross by MPAA Rating</h2>
-    <h3>JavaScript - Plot.ly</h3>
-    <div id="plot"></div>
+    <br>
+    <h2>Average Worldwide Gross by MPAA Rating</h2>
+    <div id="plot1"></div>
     <script src="films.js"></script>
     <script src="plots.js"></script>
-    <script src="functions.js"></script>
+    <h3>Data analytics tools and libraries utilized:</h3>
+    <h5>Python:  pandas, seaborn, Matplotlib, NumPy, and SciPy</h5>
+    <h5>HTML, CSS</h5>
+    <h5>JavaScript:  Plot.ly and jQuery</h5>
     <script>
         $(document).ready(function(){
             $('#myselection').on('change', function(){
